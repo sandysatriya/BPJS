@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.bpjskelompok4.Iuran"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IURAN\n\n
+\n1. Bagi peserta Penerima Bantun Iuran (PBI) Jaminan Kesehatan iuran dibayar oleh Pemerintah.\n
+\n2. Iuran bagi Peserta Pekerja Penerima Upah yang bekerja pada Lembaga Pemerintahan terdiri dari Pegawai Negeri Sipil, anggota TNI, anggota Polri, pejabat negara, dan pegawai pemerintah non pegawai negeri sebesar 5% (lima persen) dari Gaji atau Upah per bulan dengan ketentuan : 3% (tiga persen) dibayar oleh pemberi kerja dan 2% (dua persen) dibayar oleh peserta.\n
+\n3. Iuran bagi Peserta Pekerja Penerima Upah yang bekerja di BUMN, BUMD dan Swasta sebesar 5% ( lima persen) dari Gaji atau Upah per bulan dengan ketentuan : 4% (empat persen) dibayar oleh Pemberi Kerja dan 1% (satu persen) dibayar oleh Peserta.\n
+\n4. Iuran untuk keluarga tambahan Pekerja Penerima Upah yang terdiri dari anak ke 4 dan seterusnya, ayah, ibu dan mertua, besaran iuran sebesar sebesar 1% (satu persen) dari dari gaji atau upah per orang per bulan, dibayar oleh pekerja penerima upah.\n
+\n5. Iuran bagi kerabat lain dari pekerja penerima upah (seperti saudara kandung/ipar, asisten rumah tangga, dll); peserta pekerja bukan penerima upah serta iuran peserta bukan pekerja adalah sebesar:\n
+   \na. Sebesar Rp. 25.500,- (dua puluh lima ribu lima ratus rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas III.\n
+   \nb. Sebesar Rp. 51. 000,- (lima puluh satu ribu rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas II.\n
+\nc. Sebesar Rp. 80. 000,- (delapan puluh ribu rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas I.\n
+\n6. Iuran Jaminan Kesehatan bagi Veteran, Perintis Kemerdekaan, dan janda, duda, atau anak yatim piatu dari Veteran atau Perintis Kemerdekaan, iurannya ditetapkan sebesar 5% (lima persen) dari 45% (empat puluh lima persen) gaji pokok Pegawai Negeri Sipil golongan ruang III/a dengan masa kerja 14 (empat belas) tahun per bulan, dibayar oleh Pemerintah.\n
+\n7. Pembayaran iuran paling lambat tanggal 10 (sepuluh) setiap bulan.\n
+
+\n\nPERUBAHAN PERATURAN TENTANG DENDA\n\n
+\n1. Dalam hal keterlambatan pembayaran iuran Jaminan Kesehatan lebih dari 1 (satu) bulan sejak tanggal 10, penjaminan peserta diberhentikan sementara.\n
+\n2. Ketentuan denda keterlambatan pembayaran iuran dihapus.\n
+\n3. Denda hanya berlaku bagi peserta yang memperoleh Pelayanan Rawat Inap dalam waktu 45 hari sejak status kepesertaan aktif kembali, yakni sebesar 2,5% dari biaya pelayanan kesehatan Rawat inap di kali lama bulan tertunggak dengan ketentuan :\n
+   \n- Jumlah bulan tertunggak maksimal 12 bulan.
+   \n- Besar denda paling tinggi Rp. 30.000.000.
+\n\nPerubahan peraturan tentang denda mulai berlaku pada 01 Juli 2016"
+                android:id="@+id/textView2"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

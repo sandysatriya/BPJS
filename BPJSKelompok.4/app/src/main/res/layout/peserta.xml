@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.bpjskelompok4.Peserta"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+PESERTA\n\n\n
+\nPeserta BPJS Kesehatan adalah setiap orang, termasuk orang asing yang bekerja paling singkat 6 (enam) bulan di Indonesia, yang telah membayar iuran, meliputi :\n\n\n
+
+\n1.   Penerima Bantuan Iuran Jaminan Kesehatan (PBI) : fakir miskin dan orang tidak mampu, dengan penetapan peserta sesuai ketentuan peraturan perundang- undangan.\n\n
+
+\n2.    Bukan Penerima Bantuan Iuran Jaminan Kesehatan (Non PBI), terdiri dari :\n
+
+   \n Pekerja Penerima Upah dan anggota keluarganya\n
+
+ 	   \na)    Pegawai Negeri Sipil;\n
+
+     \nb)    Anggota TNI;\n
+
+     \nc)    Anggota Polri;\n
+
+     \nd)    Pejabat Negara;\n
+
+     \ne)    Pegawai Pemerintah non Pegawai Negeri;\n
+
+     \nf)     Pegawai Swasta; dan\n
+
+     \ng)    Pekerja yang tidak termasuk huruf a sd f yang menerima Upah.\n
+
+          \nTermasuk WNA yang bekerja di Indonesia paling singkat 6 (enam) bulan.\n
+
+    \nPekerja Bukan Penerima Upah dan anggota keluarganya\n
+
+ 	  \na)    Pekerja di luar hubungan kerja atau Pekerja mandiri; dan\n
+
+	  \nb)    Pekerja yang tidak termasuk huruf a yang bukan penerima Upah.\n
+
+		\nTermasuk WNA yang bekerja di Indonesia paling singkat 6 (enam) bulan.\n
+
+        \n·   Bukan pekerja dan anggota keluarganya\n
+
+    \na)    Investor;\n
+
+    \nb)    Pemberi Kerja;\n
+
+    \nc)    Penerima Pensiun, terdiri dari :\n
+
+    \nü  Pegawai Negeri Sipil yang berhenti dengan hak pensiun;
+
+    \nü  Anggota TNI dan Anggota Polri yang berhenti dengan hak pensiun;
+
+    \nü  Pejabat Negara yang berhenti dengan hak pensiun;
+
+    \nü  Janda, duda, atau anak yatim piatu dari penerima pensiun yang mendapat hak pensiun;
+
+    \nü  Penerima pensiun lain; dan
+
+    \nü  Janda, duda, atau anak yatim piatu dari penerima pensiun lain yang mendapat hak pensiun.
+
+\nd)    Veteran;\n
+
+\ne)    Perintis Kemerdekaan;\n
+
+\nf)     Janda, duda, atau anak yatim piatu dari Veteran atau Perintis Kemerdekaan; dan\n
+
+\ng)    Bukan Pekerja yang tidak termasuk huruf a sd e yang mampu membayar iuran.\n
+
+\n\nANGGOTA KELUARGA YANG DITANGGUNG\n\n
+
+\n1.     Pekerja Penerima Upah :\n
+
+\n·      Keluarga inti meliputi istri/suami dan anak yang sah (anak kandung, anak tiri dan/atau anak angkat), sebanyak-banyaknya 5 (lima) orang.
+
+\n·      Anak kandung, anak tiri dari perkawinan yang sah, dan anak angkat yang sah, dengan kriteria:
+
+\na.   Tidak atau belum pernah menikah atau tidak mempunyai penghasilan sendiri;\n
+
+\nb.   Belum berusia 21 (dua puluh satu) tahun atau belum berusia 25 (dua puluh lima) tahun yang masih melanjutkan pendidikan formal.\n
+
+\n2. Pekerja Bukan Penerima Upah dan Bukan Pekerja : Peserta dapat mengikutsertakan anggota keluarga yang diinginkan (tidak terbatas).\n
+
+\n3.   Peserta dapat mengikutsertakan anggota keluarga tambahan, yang meliputi anak ke-4 dan seterusnya, ayah, ibu dan mertua.\n
+
+\n4.  Peserta dapat mengikutsertakan anggota keluarga tambahan, yang meliputi kerabat lain seperti Saudara kandung/ipar, asisten rumah tangga, dll.\n
+"
+                android:id="@+id/textView5"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

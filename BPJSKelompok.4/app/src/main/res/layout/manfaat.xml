@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.bpjskelompok4.Manfaat"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manfaat Jaminan Kesehatan Nasional (JKN) BPJS Kesehatan meliputi : \n\n\n
+a. Pelayanan kesehatan tingkat pertama, yaitu pelayanan kesehatan non spesialistik mencakup:\n\n
+1. Administrasi pelayanan
+\n2. Pelayanan promotif dan preventif
+\n3. Pemeriksaan, pengobatan dan konsultasi medis
+\n4. Tindakan medis non spesialistik, baik operatif maupun non operatif
+\n5. Pelayanan obat dan bahan medis habis pakai
+\n6. Transfusi darah sesuai kebutuhan medis
+\n7. Pemeriksaan penunjang diagnosis laboratorium tingkat pertama
+\n8. Rawat inap tingkat pertama sesuai indikasi\n\n\n
+b. Pelayanan kesehatan rujukan tingkat lanjutan, yaitu pelayanan kesehatan mencakup: \n\n
+1. Rawat jalan, meliputi:
+\na) Administrasi pelayanan
+\nb) Pemeriksaan, pengobatan dan konsultasi spesialistik oleh dokter  spesialis dan sub spesialis
+\nc) Tindakan medis spesialistik sesuai dengan indikasi medis
+\nd) Pelayanan obat dan bahan medis habis pakai
+\ne) Pelayanan alat kesehatan implant
+\nf) Pelayanan penunjang diagnostic lanjutan sesuai dengan indikasi  medis
+\ng) Rehabilitasi medis
+\nh) Pelayanan darah
+\ni) Peayanan kedokteran forensik
+\nj) Pelayanan jenazah di fasilitas kesehatan \n\n
+2. Rawat Inap yang meliputi:
+\na)    Perawatan inap non intensif
+\nb)    Perawatan inap di ruang intensif
+\nc)    Pelayanan kesehatan lain yang ditetapkan oleh Menteri"
+                android:id="@+id/textView3"
+                android:textColor="#ffffff"
+                android:elegantTextHeight="true"
+                android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

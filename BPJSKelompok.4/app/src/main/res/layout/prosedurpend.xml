@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.bpjskelompok4.Prosedurpend"
+    android:background="@drawable/background">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROSEDUR PENDAFTARAN PESERTA JKN BPJS KESEHATAN\n\n\n\n
+A. Pendaftaran Bagi Penerima Bantuan Iuran / PBI\n\n
+\nPendataan Fakir Miskin dan Orang Tidak mampu yang menjadi peserta PBI dilakukan oleh lembaga yang menyelenggarakan urusan Pemerintahan di bidang statistik (Badan Pusat Statistik) yang diverifikasi dan divalidasi oleh Kementerian Sosial.\n
+\nSelain peserta PBI yang ditetapkan oleh Pemerintah Pusat, juga terdapat penduduk yang didaftarkan oleh Pemerintah Daerah berdasarkan SK Gubernur/Bupati/Walikota bagi Pemda yang mengintegrasikan program Jamkesda ke program JKN.\n
+
+\n\nB. Pendafataran Bagi Peserta Pekerja Penerima Upah / PPU\n\n
+1.  Perusahaan / Badan usaha mendaftarkan seluruh karyawan beserta anggota keluarganya ke Kantor BPJS Kesehatan dengan melampirkan :\n
+  \na. Formulir Registrasi Badan Usaha / Badan Hukum Lainnya\n
+  \nb. Data Migrasi karyawan dan anggota keluarganya sesuai format yang ditentukan oleh BPJS Kesehatan.\n
+\n2.  Perusahaan / Badan Usaha menerima  nomor Virtual Account (VA) untuk dilakukan pembayaran ke Bank yang telah bekerja sama (BRI/Mandiri/BNI)\n
+\n3.  Bukti Pembayaran iuran diserahkan ke Kantor BPJS Kesehatan untuk dicetakkan kartu JKN ataumencetak e-ID secara mandiri oleh Perusahaan / Badan Usaha.\n
+
+\n\nC. Pendaftaran Bagi Peserta Pekerja Bukan Penerima Upah / PBPU dan Bukan Pekerja\n\n
+
+\nØ Pendaftaran PBPU dan Bukan Pekerja\n
+\n1.  Calon peserta mendaftar secara perorangan di Kantor BPJS Kesehatan\n
+\n2.  Mendaftarkan seluruh anggota keluarga yang ada di Kartu Keluarga\n
+\n3.  Mengisi formulir Daftar Isian Peserta (DIP) dengan melampirkan :
+    \n- Fotokopi Kartu Keluarga (KK)
+    \n- Fotokopi KTP/Paspor, masing-masing 1 lembar
+    \n- Fotokopi Buku Tabungan salah satu peserta yang ada didalam Kartu Keluarga
+    \n- Pasfoto 3 x 4, masing-masing sebanyak 1 lembar.\n
+\n4.  Setelah mendaftar, calon peserta memperoleh Nomor Virtual Account (VA)\n
+\n5.  Melakukan pembayaran iuran ke Bank yang bekerja sama (BRI/Mandiri/BNI)\n
+\n6.  Bukti pembayaran iuran diserahkan ke kantor BPJS Kesehatan untuk dicetakkan kartu JKN.Pendaftaran selain di Kantor BPJS Kesehatan, dapat melalui Website BPJS Kesehatan\n\n
+
+\nØ Pendaftaran Bukan Pekerja Melalui Entitas Berbadan Hukum (Pensiunan BUMN/BUMD)\n
+\nProses pendaftaran pensiunan yang dana pensiunnya dikelola oleh entitas berbadan hukum dapat didaftarkan secara kolektif melalui entitas berbadan hukum yaitu dengan mengisi formulir registrasi dan formulir migrasi data peserta.\n\n\n\n
+
+\n\nPERSYARATAN MENJADI FASILITAS KESEHATAN TINGKAT PERTAMA\n\n\n
+\nA.     Untuk Klinik Pratama atau yang setara harus memiliki :\n\n
+\n1.      Surat Ijin Operasional\n
+\n2.      Surat Ijin Praktik (SIP) bagi dokter/dokter gigi dan Surat Ijin Praktik atau Surat Ijin Kerja (SIP/SIK) bagi tenaga kesehatan lain\n
+\n3.      Surat Ijin Praktik Apoteker (SIPA) bagi Apoteker dalam hal klinik menyelenggarakan pelayanan kefarmasian\n
+\n4.      Nomor Pokok Wajib Pajak (NPWP) badan\n
+\n5.      Perjanjian kerja sama dengan jejaring, jika diperlukan\n
+\n6.      Surat pernyataan kesediaan mematuhi ketentuan yang terkait dengan Jaminan Kesehatan Nasional\n\n\n
+
+\nB.     Untuk Praktik Dokter atau Dokter Gigi harus memiliki :\n\n
+\n1.      Surat Ijin Praktik\n
+\n2.      Nomor Pokok Wajib Pajak (NPWP)\n
+\n3.      Perjanjian kerja sama dengan laboratorium, apotek, dan jejaring lainnya\n
+\n4.      Surat pernyataan kesediaan mematuhi ketentuan yang terkait dengan JKN\n\n\n
+
+\nC.      Untuk Puskesmas atau yang setara harus memiliki :\n\n
+\n1.      Surat Ijin Operasional\n
+\n2.      Surat Ijin Praktik (SIP) bagi dokter/dokter gigi, Surat Ijin Praktik Apoteker (SIPA) bagi Apoteker, dan Surat Ijin Praktik atau Surat Ijin Kerja (SIP/SIK) bagi tenaga kesehatan lain;\n
+\n3.      Perjanjian kerja sama dengan jejaring, jika diperlukan\n
+\n4.      Surat pernyataan kesediaan mematuhi ketentuan yang terkait dengan JKN\n
+
+\nD.     Untuk Rumah Sakit Kelas D Pratama atau yang setara harus memiliki :\n
+\n1.      Surat Ijin Operasional\n
+\n2.      Surat Ijin Praktik (SIP) tenaga kesehatan yang berpraktik\n
+\n3.      Nomor Pokok Wajib Pajak (NPWP) badan\n
+\n4.      Perjanjian kerja sama dengan jejaring, jika diperlukan\n
+\n5.      Surat pernyataan kesediaan mematuhi ketentuan yang terkait dengan Jaminan Kesehatan Nasional\n
+
+ 
+\n\nCatatan :\n\n
+\n•   Persyaratan dan Formulir tersebut diserahkan kepada Kantor Cabang BPJS Kesehatan setempat.\n
+\n•   Diutamakan Klinik Pratama untuk memiliki jejaring dengan Dokter Gigi, dan apabila Klinik Pratama telah memenuhi persyaratan Kredensialing, serta sesuai dengan kebutuhan Fasilitas Kesehatan Tingkat Pertama pada wilayah Kantor Cabang, maka Klinik Pratama dapat melakukan Perjanjian Kerja Sama dengan Kantor Cabang setempat.\n
+"
+                android:id="@+id/textView"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
